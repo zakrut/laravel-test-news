@@ -7,3 +7,7 @@
 01. `composer update`
 02. `php artisan key:generate`
 03. `php artisan migrate --seed`
+
+Администратор: admin@test.ru | пароль: admin
+
+Редактор: editor@test.ru | пароль: editor
