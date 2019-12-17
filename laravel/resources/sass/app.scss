@@ -1,0 +1,34 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.bootstrap-tagsinput{
+    width: 100%;
+    line-height: 27px!important;
+    .tag{
+        background: #3490dc;
+        border-radius: 2px;
+        padding: 2px 4px;
+    }
+}
+#message-alerts{
+    position: fixed;
+    bottom:20px;
+    text-align: center;
+    .alert{
+        display: inline-block;
+    }
+}
+.img-form{
+    max-height:220px;
+}
